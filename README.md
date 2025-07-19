@@ -1,5 +1,6 @@
 # bornhack2025
 
+```
 wget ftp://ita.ee.lbl.gov/traces/NASA_access_log_Jul95.gz
 
 sl 2>$1 | grep apt
@@ -208,3 +209,4 @@ tr " " _ | tr ":" " "
   192  cd source
   193  vim $(fzf -m)
   194  cd bornhack2025
+```
